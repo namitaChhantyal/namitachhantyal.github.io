@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/color-1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+    <!--Style switcher-->
+    <link rel="stylesheet" href="../assets/css/color-1.css" class="alternate-style" title="color-1" disabled>
+    <link rel="stylesheet" href="../assets/css/color-2.css" class="alternate-style" title="color-2" disabled>
+    <link rel="stylesheet" href="../assets/css/color-3.css" class="alternate-style" title="color-3" disabled>
+    <link rel="stylesheet" href="../assets/css/color-4.css" class="alternate-style" title="color-4" disabled>
+    <link rel="stylesheet" href="../assets/css/color-5.css" class="alternate-style" title="color-5" disabled>
+    <link rel="stylesheet" href="../assets/css/style-switcher.css">
+    <title>Namita Chhantyal | Projects</title>
+</head>
+
+<body>
+    <div class="main-container">
+        <!--sideNavbar-->
+        <div class="aside">
+            <div class="logo">
+                <a href="home.html"><span>N</span>amita<span>C</span></a>
+            </div>
+            <div class="nav-toggler">
+                <span></span>
+            </div>
+            <ul class="nav">
+                <li><a href="home.html"><i class="fa fa-home"></i>Home</a></li>
+                <li><a href="about.html"><i class="fa fa-user"></i>About</a></li>
+                <!-- <li><a href="services.html"><i class="fa fa-list"></i>Services</a></li> -->
+                <li><a href="portfolio.html" class="active"><i class="fa fa-briefcase"></i>Project Works</a></li>
+                <li><a href="contact.html"><i class="fa fa-comments"></i>Contact</a></li>
+            </ul>
+        </div>
+        <!--side navbar end-->
+
+        <div class="main-content">
+
+            <section class="portfolio active section" id="portfolio">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title padd-15">
+                            <h2>Projects</h2>
+                        </div>
+                    </div>
+
+                    <div class="project-grid">
+                        <!-- 1) Stock Market Analysis -->
+                        <article class="project-card">
+                            <div class="project-icon"><i class="fa fa-chart-line"></i></div>
+                            <h3>Stock Market Analysis</h3>
+                            <p>Performed time-series and trend analysis in <strong>Python</strong> and
+                                <strong>Excel</strong> to spot investment patterns and generate basic forecasts.
+                            </p>
+                            <ul class="bullets">
+                                <li class="tags">
+                                    <span>Python</span><span>Pandas</span><span>Excel</span><span>Time Series</span>
+                                </li>
+                            </ul>
+                            <div class="actions">
+                                <a class="btn-link" href="https://github.com/namitaChhantyal/StockMarketAnalysis"
+                                    target="_blank">GitHub</a>
+                            </div>
+                        </article>
+
+                        <article class="project-card">
+                            <div class="project-icon"><i class="fa fa-hospital"></i></div>
+                            <h3>Healthcare Chatbot</h3>
+                            <p>Agentic RAG architecture <strong> with Model Context Protocol (MCP) for controlled
+                                    dataset ingestion</strong> and
+                                <strong>RAGAS</strong> metrics for evaluating reliability and faithfulness
+                            </p>
+                            <ul class="bullets">
+                                <li class="tags">
+                                    <span>Python</span><span>Agentic
+                                        RAG</span><span>MCP</span><span>RAGAS</span><span>huggingface</span>
+                                </li>
+                            </ul>
+                            <div class="actions">
+                                <a class="btn-link" href="https://github.com/namitaChhantyal/MedicalChatbot"
+                                    target="_blank">GitHub</a>
+                                <a class="btn-link outline"
+                                    href="https://huggingface.co/spaces/namitachhantyal/MedicalChatty"
+                                    target="_blank">Link</a>
+                            </div>
+                        </article>
+
+                        <!-- 2) Translator Using AWS Services -->
+                        <article class="project-card">
+                            <div class="project-icon"><i class="fa fa-language"></i></div>
+                            <h3>Translator Using AWS Services</h3>
+                            <p>Designed and deployed a serverless translator app using Amazon Translate and Amazon
+                                Comprehend for automatic language detection.
+
+                            </p>
+                            <ul class="bullets">
+                                <li class="tags">
+                                    <span>AWS Services</span><span>AWS LAMBDA</span><span>AWS Cognito</span><span>AWS
+                                        Translate</span>
+                                </li>
+                            </ul>
+                            <div class="actions">
+                                <a href="../assets/files/AWS_translatornew-2-17.pdf" class="btn-link"
+                                    download="aws.pdf">Slide Deck</a>
+                                <a href="../assets/files/Translation Project.pdf" class="btn-link outline"
+                                    download="aws.pdf">Documentation</a>
+
+                                <a class="btn-link outline"
+                                    href="http://lex-webchat-group2.s3-website-us-east-1.amazonaws.com/"
+                                    target="_blank">Link</a>
+                            </div>
+                        </article>
+
+                        <!-- 3) Disease Analytics Dashboard -->
+                        <article class="project-card">
+                            <div class="project-icon"><i class="fa fa-database"></i></div>
+                            <h3>Disease Analytics Dashboard</h3>
+                            <p>Built a health analytics pipeline using <strong>SQL</strong>,
+                                <strong>dbSchema</strong>, and <strong>pgAdmin</strong>; visualized KPIs in
+                                <strong>Power BI</strong> for decisions.
+                            </p>
+                            <ul class="bullets">
+                                <li class="tags">
+                                    <span>SQL</span><span>dbSchema</span><span>pgAdmin</span><span>Power BI</span>
+                                </li>
+                            </ul>
+                            <div class="actions">
+                                <a class="btn-link" href="https://github.com/namitaChhantyal/DiseaseAnalyticsDashboard"
+                                    target="_blank">GitHub</a>
+                                <a class="btn-link outline"
+                                    href="https://github.com/namitaChhantyal/DiseaseAnalyticsDashboard/blob/main/DiseaseDashboard.pbix"
+                                    target="_blank">Dashboard</a>
+                            </div>
+                        </article>
+
+                        <!-- 4) NYC Yellow Taxi Data Analysis -->
+                        <article class="project-card">
+                            <div class="project-icon"><i class="fa fa-taxi"></i></div>
+                            <h3>NYC Yellow Taxi Analysis</h3>
+                            <p>Cleaned & analyzed trip data; built <strong>Tableau</strong> dashboards highlighting
+                                peak hours, fare patterns, and tip trends.</p>
+                            <ul class="bullets">
+                                <li class="tags">
+                                    <span>Tableau</span><span>Data
+                                        Cleaning</span><span>EDA</span><span>Visualization</span>
+                                </li>
+                            </ul>
+                            <div class="actions">
+                                <a class="btn-link" href="#" target="_blank">Tableau Public</a>
+                                <a class="btn-link outline"
+                                    href="https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page"
+                                    target="_blank">Data Source</a>
+                            </div>
+                        </article>
+
+                        <!-- 5) E-Commerce Platform (Django) -->
+                        <article class="project-card">
+                            <div class="project-icon"><i class="fa fa-store"></i></div>
+                            <h3>E-Commerce Platform</h3>
+                            <p>Designed and developed a small-business product sales site using
+                                <strong>Django</strong> with auth, cart, and order flow.
+                            </p>
+                            <ul class="bullets">
+                                <li class="tags">
+                                    <span>Django</span><span>Python</span><span>Bootstrap</span><span>PostgreSQL/MySQL</span>
+                                </li>
+                            </ul>
+                            <div class="actions">
+                                <a class="btn-link" href="https://github.com/namitaChhantyal/ComputerHub"
+                                    target="_blank">GitHub</a>
+                            </div>
+                        </article>
+
+
+
+                        <article class="project-card">
+                            <div class="project-icon"><i class="fa fa-stethoscope"></i></div>
+                            <h3>Medical Alert Using AWS</h3>
+                            <p>Built Medical Alert System Using
+                                <strong>Python</strong> alongside with the security aspects
+                            </p>
+                            <ul class="bullets">
+                                <li class="tags">
+                                    <span>Python </span><span>AWS Lambda</span><span>Security</span><span>AWS Services</span>
+                                </li>
+                            </ul>
+                            <div class="actions">
+                                 <a href="../assets/files/MedicalAlert.pdf" class="btn-link outline"
+                                    download="aws.pdf">Slidedeck</a>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+    </div>
+
+    <!--Style Switcher Start-->
+    <div class="style-switcher">
+        <div class="style-switcher-toggler s-icon">
+            <i class="fa fa-cog fa-spin"></i>
+        </div>
+        <div class="day-night s-icon">
+            <i class="fas fa-moon"></i>
+        </div>
+        <h4>Theme Colors</h4>
+        <div class="colors">
+            <span class="color-1" onclick="setActiveStyle('color-1')"></span>
+            <span class="color-2" onclick="setActiveStyle('color-2')"></span>
+            <span class="color-3" onclick="setActiveStyle('color-3')"></span>
+            <span class="color-5" onclick="setActiveStyle('color-5')"></span>
+        </div>
+    </div>
+    <!--Style Switcher End-->
+
+    <!--Js Files-->
+    <script src="../assets/javascript/script.js"></script>
+    <script src="../assets/javascript/style-switcher.js"></script>
+
+</body>
+
+</html>

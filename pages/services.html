@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/color-1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+    <!--Style switcher-->
+    <link rel="stylesheet" href="../assets/css/color-1.css" class="alternate-style" title="color-1" disabled>
+    <link rel="stylesheet" href="../assets/css/color-2.css" class="alternate-style" title="color-2" disabled>
+    <link rel="stylesheet" href="../assets/css/color-3.css" class="alternate-style" title="color-3" disabled>
+    <link rel="stylesheet" href="../assets/css/color-4.css" class="alternate-style" title="color-4" disabled>
+    <link rel="stylesheet" href="../assets/css/color-5.css" class="alternate-style" title="color-5" disabled>
+    <link rel="stylesheet" href="../assets/css/style-switcher.css">
+    <title>Namita Chhantyal | Services</title>
+</head>
+
+<body>
+    <div class="main-container">
+        <!--sideNavbar-->
+        <div class="aside">
+            <div class="logo">
+                <a href="home.html"><span>N</span>amita<span>C</span></a>
+            </div>
+            <div class="nav-toggler">
+                <span></span>
+            </div>
+            <ul class="nav">
+                <li><a href="home.html"><i class="fa fa-home"></i>Home</a></li>
+                <li><a href="about.html"><i class="fa fa-user"></i>About</a></li>
+                <li><a href="services.html" class="active"><i class="fa fa-list"></i>Services</a></li>
+                <li><a href="portfolio.html"><i class="fa fa-briefcase"></i>Project Works</a></li>
+                <li><a href="contact.html"><i class="fa fa-comments"></i>Contact</a></li>
+            </ul>
+        </div>
+        <!--side navbar end-->
+
+        <div class="main-content">
+
+            <!-- ===== SERVICES SECTION START ===== -->
+            <section class="service active section" id="services">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title padd-15">
+                            <h2>Services</h2>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <!-- Service 1 -->
+                        <div class="service-item padd-15">
+                            <div class="service-item-inner">
+                                <div class="icon"><i class="fa fa-chart-line"></i></div>
+                                <h4>Data Analytics & Visualization</h4>
+                                <p>
+                                    I analyze and interpret datasets using <strong>Python, SQL, Tableau, and Power
+                                        BI</strong> to uncover insights and create impactful visualizations. Skilled at
+                                    designing dashboards that help drive data-driven decision-making.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Service 2 -->
+                        <div class="service-item padd-15">
+                            <div class="service-item-inner">
+                                <div class="icon"><i class="fa fa-vial"></i></div>
+                                <h4>Quality Assurance & Testing</h4>
+                                <p>
+                                    Experienced in <strong>manual and automated testing</strong> using tools such as
+                                    <strong>Selenium, Postman, and JIRA</strong>. I ensure each release meets quality,
+                                    functionality, and performance benchmarks.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Service 3 -->
+                        <div class="service-item padd-15">
+                            <div class="service-item-inner">
+                                <div class="icon"><i class="fa fa-database"></i></div>
+                                <h4>Backend & API Development</h4>
+                                <p>
+                                    Proficient in <strong>Python and Django</strong>, developing secure and maintainable
+                                    backends, REST APIs, and authentication systems. Adept at managing databases and
+                                    optimizing performance for scalability.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Service 4 -->
+                        <div class="service-item padd-15">
+                            <div class="service-item-inner">
+                                <div class="icon"><i class="fa fa-cloud"></i></div>
+                                <h4>Cloud Deployment & Automation</h4>
+                                <p>
+                                    Hands-on experience with <strong>AWS</strong> services such as S3, Lambda, and
+                                    Cognito. I can automate workflows, manage IAM roles, and deploy cloud-based
+                                    applications efficiently and securely.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Service 5 -->
+                        <div class="service-item padd-15">
+                            <div class="service-item-inner">
+                                <div class="icon"><i class="fa fa-laptop-code"></i></div>
+                                <h4>Web Development</h4>
+                                <p>
+                                    Skilled in <strong>HTML, CSS, Bootstrap, and JavaScript</strong> to build
+                                    responsive, accessible, and user-friendly websites that align with brand identity
+                                    and enhance usability.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Service 6 -->
+                        <div class="service-item padd-15">
+                            <div class="service-item-inner">
+                                <div class="icon"><i class="fa fa-headset"></i></div>
+                                <h4>Technical Support & Troubleshooting</h4>
+                                <p>
+                                    Provide reliable <strong>IT and software support</strong>, assisting with
+                                    installations, configurations, and connectivity issues. Recognized for clear
+                                    communication, quick problem-solving, and strong documentation.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- ===== SERVICES SECTION END ===== -->
+
+        </div>
+    </div>
+
+    <!--Style Switcher Start-->
+    <div class="style-switcher">
+        <div class="style-switcher-toggler s-icon">
+            <i class="fa fa-cog fa-spin"></i>
+        </div>
+        <div class="day-night s-icon">
+            <i class="fas fa-moon"></i>
+        </div>
+        <h4>Theme Colors</h4>
+        <div class="colors">
+            <span class="color-1" onclick="setActiveStyle('color-1')"></span>
+            <span class="color-2" onclick="setActiveStyle('color-2')"></span>
+            <span class="color-3" onclick="setActiveStyle('color-3')"></span>
+            <span class="color-5" onclick="setActiveStyle('color-5')"></span>
+        </div>
+    </div>
+    <!--Style Switcher End-->
+
+    <!--Js Files-->
+    <script src="../assets/javascript/script.js"></script>
+    <script src="../assets/javascript/style-switcher.js"></script>
+
+</body>
+
+</html>
